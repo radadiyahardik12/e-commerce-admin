@@ -1,0 +1,63 @@
+
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  display: block;
+  gap: 20px;
+  justify-content: center;
+  width: 1440px;
+}
+
+.categories, .products {
+  /* width: 45%; */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.categories h2, .products h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.form input, .form select, .form textarea, .form button {
+  display: block;
+  width:  -webkit-fill-available;
+  margin: 8px 0;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.list {
+  margin-top: 10px;
+  display: flex;
+  gap: 30px;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.list button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.category{
+  display: flex;
+  justify-content: space-between;
+}
